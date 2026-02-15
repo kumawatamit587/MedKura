@@ -215,11 +215,6 @@ If account doesn't exist, you can sign up with any email/password (minimum 6 cha
 POST /api/auth/signup
 Content-Type: application/json
 
-{
-  "email": "user@example.com",
-  "password": "password123"
-}
-
 Response (201 Created):
 {
   "message": "Account created successfully",
@@ -233,11 +228,6 @@ Response (201 Created):
 ```http
 POST /api/auth/login
 Content-Type: application/json
-
-{
-  "email": "user@example.com",
-  "password": "password123"
-}
 
 Response (200 OK):
 {
@@ -316,18 +306,6 @@ Response (200 OK):
 {
   "message": "Status updated successfully",
   "report": { ...updated report object... }
-}
-```
-
-#### Health Check
-
-```http
-GET /api/health
-
-Response (200 OK):
-{
-  "status": "ok",
-  "timestamp": "2026-02-15T12:20:10.055Z"
 }
 ```
 
