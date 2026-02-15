@@ -113,12 +113,12 @@ CREATE TABLE reports (
 
 ### Login Page
 
-![Login Page](screenshots/01-login.png)
+![screenshots/01-login.png](https://github.com/kumawatamit587/MedKura/blob/main/public/ScreenShort.png)
 _User registration and authentication interface with form validation_
 
 ### Dashboard Overview
 
-![Dashboard](screenshots/02-dashboard.png)
+![Dashboard](1screenshots/02-dashboard.png)
 _Main dashboard showing all reports with status filtering and search functionality_
 
 ### Upload Report
