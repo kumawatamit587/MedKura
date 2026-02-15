@@ -109,7 +109,36 @@ CREATE TABLE reports (
 
 ---
 
-## 🚀 Getting Started
+## � Screenshots
+
+### Login Page
+
+![Login Page](screenshots/01-login.png)
+_User registration and authentication interface with form validation_
+
+### Dashboard Overview
+
+![Dashboard](screenshots/02-dashboard.png)
+_Main dashboard showing all reports with status filtering and search functionality_
+
+### Upload Report
+
+![Upload Report](screenshots/03-upload-report.png)
+_File upload interface with drag-and-drop support and file validation_
+
+### Report Details
+
+![Report Details](screenshots/04-report-details.png)
+_Individual report page with metadata, progress stepper, and status workflow_
+
+### Status Transition
+
+![Status Update](screenshots/05-status-update.png)
+_Report status workflow showing UPLOADED → PROCESSING → COMPLETED stages_
+
+---
+
+## �🚀 Getting Started
 
 ### Prerequisites
 
@@ -697,7 +726,6 @@ Before submitting to GitHub, verify:
 - [ ] JWT secrets not exposed
 - [ ] Database credentials in .env file
 - [ ] Passwords hashed (verify in code)
-
 
 ---
 
