@@ -368,9 +368,8 @@ Users can manually advance reports through stages using the "Move to next stage"
 
 ### 🛡️ Security Features
 
-- Password hashing with bcryptjs (10 salt rounds)
+- Password hashing with bcryptjs
 - JWT token authentication with expiration
-- SQL injection prevention with parameterized queries
 - Secure file upload with Multer validation
 - CORS protection for cross-origin requests
 - Environment variables for sensitive configuration
@@ -625,14 +624,6 @@ git push -u origin main
 - FRONTEND.md - React app guide (if separate)
 - Database schema (config/schema.sql)
 
-✅ **Screenshots** (optional: create /screenshots folder)
-
-- Login page screenshot
-- Dashboard overview
-- Upload report form
-- Report details page
-- Status workflow in action
-
 ✅ **.env.example**
 
 ```env
@@ -687,15 +678,6 @@ Before submitting to GitHub, verify:
 - [ ] README visible on GitHub homepage
 - [ ] Repository is public
 
-### Screenshots (Optional but Recommended)
-
-- [ ] Login page captured
-- [ ] Dashboard with reports captured
-- [ ] Upload form captured
-- [ ] Report details page captured
-- [ ] Screenshots stored in `/screenshots` folder
-- [ ] Screenshots referenced in README
-
 ### Testing
 
 - [ ] Create account and log in successfully
@@ -716,33 +698,6 @@ Before submitting to GitHub, verify:
 - [ ] Database credentials in .env file
 - [ ] Passwords hashed (verify in code)
 
----
-
-## 📖 Additional Documentation
-
-- [Backend API Documentation](./medical-backend/README.md)
-- [System Architecture Details](./ARCHITECTURE.md)
-- [Frontend Implementation Guide](./FRONTEND.md)
-- [Testing Guide](./TESTING_GUIDE.md)
-- [Final Submission Checklist](./FINAL_CHECKLIST.md)
-
----
-
-## 📞 Support & Questions
-
-For issues or questions:
-
-1. Check [TESTING_GUIDE.md](TESTING_GUIDE.md) for common problems
-2. Review browser console (F12 → Console tab) for client-side errors
-3. Check backend terminal for server errors
-4. Verify database connection with MySQL client
-5. Ensure all prerequisites are installed correctly
-
----
-
-## 📄 License
-
-MIT License - Open source for educational and commercial purposes
 
 ---
 
@@ -753,7 +708,7 @@ MIT License - Open source for educational and commercial purposes
 - [x] Full backend API implemented with Express.js
 - [x] React frontend with routing and auth protection
 - [x] User authentication system with JWT tokens
-- [x] Report management (upload, read, update, delete)
+- [x] Report management (upload, read)
 - [x] Database schema with MySQL
 - [x] File upload handling with Multer
 - [x] Error handling and logging
