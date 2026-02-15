@@ -1,6 +1,6 @@
 # MedKura - Medical Report Management System
 
-A full-stack web application for managing and analyzing medical reports with real-time status tracking, file uploads, and AI-powered summaries.
+A full-stack web application for managing and analyzing medical reports with real-time status tracking, file uploads.
 
 ## 🎯 Project Overview
 
