@@ -199,14 +199,7 @@ http://localhost:5173
 
 ---
 
-## 🔑 Default Test Credentials
-
-Use these credentials to test the application:
-
-```
-Email:
-Password
-```
+## 🔑 Credentials
 
 If account doesn't exist, you can sign up with any email/password (minimum 6 characters).
 
