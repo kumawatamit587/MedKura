@@ -18,6 +18,15 @@ dist-ssr
 .idea
 .DS_Store
 *.suo
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Uploaded files (development)
+uploads/
 *.ntvs*
 *.njsproj
 *.sln
