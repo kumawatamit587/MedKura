@@ -69,11 +69,11 @@ export default function Login() {
 
           <p style={styles.heroDesc}>
             Upload, track, and review your medical reports with real-time status
-            updates and AI-generated summaries.
+            updates and generated summaries.
           </p>
 
           <div style={styles.features}>
-            {["Secure Storage", "Real-time Tracking", "AI Summaries"].map(
+            {["Secure Storage", "Real-time Tracking", "Summaries"].map(
               (feature) => (
                 <div key={feature} style={styles.feature}>
                   <span style={styles.featureIcon}>✓</span>

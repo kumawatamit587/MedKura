@@ -316,7 +316,7 @@ export default function ReportDetail() {
                 </div>
                 <p style={styles.pendingTitle}>Processing Report...</p>
                 <p style={styles.pendingDesc}>
-                  The AI is analyzing your report. Summary will appear here once
+                  Analyzing your report. Summary will appear here once
                   completed.
                 </p>
               </div>
