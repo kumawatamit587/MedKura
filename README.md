@@ -112,7 +112,7 @@ CREATE TABLE reports (
 ## � Screenshots
 
 
-![screenshots](https://github.com/kumawatamit587/MedKura/blob/main/public/ScreenShort.png)
+![screenshots](https://github.com/kumawatamit587/MedKura/blob/main/public/screencapture.png)
 
 
 ## �🚀 Getting Started
